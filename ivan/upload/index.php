@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=utf-8"/>
 <title>Upload de Archivos</title>
 </head>
 <body>
