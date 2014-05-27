@@ -1,0 +1,210 @@
+    1  useradd irovito
+    2  passwd irovito
+    3  useradd frovito
+    4  passwd frovito
+    5  apt-get install apache2 php5 phpmyadmin mysql
+    6  apt-get install apache2 
+    7  ps -ef | grep apache
+    8  apt-get install phpmyadmin
+    9  apt-get update
+   10  apt-get install phpmyadmin
+   11  apt-get install mysql-server
+   12  exit
+   13  mkdir /home/irovito
+   14  mkdir /home/frovito
+   15  exit
+   16  mysql -u root -p
+   17  vi /etc/my.cnf
+   18  vi /etc/mysql/my.cnf
+   19  service mysql restart
+   20  mysql -u root -p
+   21  mysql -u irovito -p
+   22  mysql -u root -p
+   23  vi /var/run/mysqld/mysqld.sock
+   24  cat /var/run/mysqld/mysqld.sock
+   25  mysql -u root -p
+   26  ps -ef | grep php
+   27  php5 start
+   28  phpmyadmin
+   29  exit
+   30  cd /var/www
+   31  ls
+   32  ls -ltr
+   33  chmod -R 777 ivan
+   34  ls -ltr
+   35  cd /etc
+   36  ls -ltr
+   37  cd phpmyadmin
+   38  ls -ltr
+   39  vi config.inc.php
+   40  vi apache.conf
+   41  service phpmyadmin restart
+   42  service apache2 restart
+   43  find / -name  php.ini
+   44  vi /etc/php5/cli/php.ini
+   45  vi /etc/php5/apache2/php.ini
+   46  apache2 -v
+   47  php5 -v
+   48  apt-get upgrade
+   49  uname -a
+   50  service apache2 restart
+   51  php5 -v
+   52  exit
+   53  A~Welcome to Ubuntu 12.10 (GNU/Linux 2.6.32-042stab085.20 x86_64)
+   54  Last login: Fri May 23 14:00:07 2014 from 181.16.53.196
+   55  root@widecode:~#exit
+   56  exit
+   57  apt-get update
+   58  apt-get upgrade
+   59  reboot
+   60  find / -name php.ini
+   61  vi /etc/php5/apache2/php.ini
+   62  service restart apache2
+   63  service restart php5
+   64  cd /etc/php5/apache2/
+   65  ls -ltr
+   66  service apache restart
+   67  exit
+   68  clear
+   69  cd /var/www
+   70  cd ivan
+   71  cd upload
+   72  cd ..
+   73  ls
+   74  cd repo
+   75  mkdir repo
+   76  cd repo
+   77  apt-get install git
+   78  get config --global user.name "ivanrovito"
+   79  git config --global user.name "ivanrovito"
+   80  git config --global user.email "ivanrovito@gmail.com"
+   81  ssh-keygen
+   82  cat /root/.ssh/id_rsa.pub
+   83  cd ..
+   84  git init
+   85  ls
+   86  touch README2
+   87  git add README2
+   88  git status
+   89  git commit -m "este es el primer archivo desde mi computadora"
+   90  git remote add git@github.com:ivanrovito/widecode.git
+   91  git remote add origin git@github.com:ivanrovito/widecode.git
+   92  git pull origin master
+   93  ls -ltr
+   94  git push origin master
+   95  git add *
+   96  git commit -m 
+   97  git commit -m -a
+   98  git push origin master
+   99  ls -ltr
+  100  git pull origin master
+  101  git status
+  102  vi README2
+  103  git status
+  104  git commit -a
+  105  git push origin to master
+  106  git status
+  107  git pull master to origin
+  108  git pull -a
+  109  history 100
+  110  git commit -m -a
+  111  git push origin master
+  112  cat README2
+  113  vi README2
+  114  commit -a
+  115  git commit -a
+  116  git push master origin
+  117  git pull master origin
+  118  git push master origin
+  119  git add *
+  120  commit -a
+  121  git commit -a
+  122  git push master origin
+  123  git push origin master
+  124  git pull origin master
+  125  git push master origin
+  126  git push widecode origin
+  127  git status
+  128  git -h
+  129  git status
+  130  git add ivan/upload/process.php
+  131  commit -a
+  132  git commit -a
+  133  git push widecode origin
+  134  git push master origin
+  135  git push origin master
+  136  git pull master origin
+  137  git pull widecode master
+  138  git pull widecode origin
+  139  history 100
+  140  git pull origin master
+  141  exit
+  142  vi /etc/hosts
+  143  datapath query
+  144  vi /etc/ssh/sshd_config
+  145  pwd
+  146  cd /var/www
+  147  ls -ltr
+  148  ls -ltra
+  149  cd .git
+  150  ls -ltr
+  151  cd ..
+  152  ls -ltra
+  153  sudo adduser git
+  154  su git
+  155  git --bare init
+  156  ls -ltr
+  157  cat /etc/group
+  158  vi /etc/group
+  159  ls -ltr
+  160  chown -R rovitoi:git *
+  161  chown -R irovito:git *
+  162  ls -ltr
+  163  chmod -R 755 *
+  164  ls -ltr
+  165  chmod -R 775 *
+  166  ls -ltr
+  167  git commit -am 'Modif desde laptop'
+  168  git push vps master
+  169  git push origin master
+  170  git add *
+  171  git push vps master
+  172  git pull vps master
+  173  git init
+  174  git push vps master
+  175  exit
+  176  cd /var/www
+  177  ls -ltr
+  178  git pull origin master
+  179  commit -a
+  180  git pull origin master
+  181  commit -a
+  182  git commit -a
+  183  git pull origin master
+  184  git push origin master
+  185  ls -ltr
+  186  cd ivan
+  187  ls -ltr
+  188  chmod -R upload
+  189  chmod -R 777 upload
+  190  cd upload
+  191  ls -ltr
+  192  rm lupa-icono-3813-32.png
+  193  ls -ltr
+  194  chmod -R 777 upload
+  195  ls -ltr
+  196  cd upload
+  197  ls -ltr
+  198  clear
+  199  ls -ltr
+  200  rm "foto del titin.jpg"
+  201  ls
+  202  ls -ltrcd ..
+  203  cd ..
+  204  history 100
+  205  git push origin master
+  206  git commit -am 'Modif desde laptop'
+  207  git push vps master
+  208  git push origin master
+  209  history
+  210  history > history_git.txt
